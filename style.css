@@ -1,0 +1,577 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px;
+    position:fixed;
+  }
+  
+  
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    list-style: none;
+    /* margin-right: 50px; */
+  }
+  .name h2{
+    font-size: 50px;
+    margin-left: 80px;
+  }
+  
+  .navbar-list li {
+    margin-right: 40px;
+  }
+  
+  .navbar-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .navbar-list li a:hover {
+    font-size: 22px;
+    background-color: #949797;
+    color: #333;
+  }
+
+  /* ---------------------------------------------------- */
+
+.header{
+  height: 700px;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(Images/3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+.header-content{
+  width: 800px;
+  text-align: center;
+  transform: translate(50%, 70%);
+}
+.header-content h1{
+  color: #fffafa;
+  font-size: 80px;
+}
+.header-content p{
+  font-size: 30px;
+  color: antiquewhite;
+}
+.btn-see {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.btn-see:hover{
+  background-color: #ada9a9;
+  color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------------------ */
+
+.container1 {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(Images/cod.jpg);
+}
+.skills{
+  background-color: #1e2855;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.skname{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.sk h2{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.sk img{
+  height: 90px;
+}
+.sk p{
+  color: #fff;
+  font-size: 25px;
+}
+.sk{
+  width: 400px;
+  height: 380px;
+  border: 2px solid;
+  border-color:rgb(79, 80, 82) ;
+  text-align: center;
+  background-color: rgb(68, 69, 71);
+}
+.sk:hover{
+  background-color: #737475;
+}
+
+/* ------------------------------------------------ */
+
+.ambition{
+  background-color: #e7e1e1;
+  /* height: 500px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-ar{
+  width: 45%;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.left-ar h2{
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.left-ar p{
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.right-ar{
+  width: 50%;
+}
+.right-ar img{
+  margin-left: 0px;
+  height: 500px;
+}
+
+/* ------------------------------------------------ */
+
+.hobbies{
+  background: linear-gradient(to right, #9e3190, #0c6583, #9cd82e);
+  padding-bottom: 20px;
+}
+.hobbies h2{
+  background-color:rgb(179, 216, 105) ;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom:20px ;
+  color: rgb(255, 254, 254);
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row1 img{
+  height: 350px;
+  width: 500px;
+  border-radius: 30px;
+}
+.overlay p{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.row2 img{
+  height: 350px;
+  width: 500px;
+  border-radius: 30px;
+}
+
+
+.footer{
+  background-color: #1e2855;
+}
+.upper-ft{
+  text-align: center;
+  padding-top: 40px;
+}
+.footer h2{
+  color: white;
+  font-size: 35px;
+}
+.footer p{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.email{
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+}
+.line{
+  margin-top: 20px;
+}
+.follow-us{
+  color: white;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.follow-us h3{
+  margin-left: 15px;
+}
+.icons{
+  display: flex;
+  flex-wrap:wrap ;
+  margin-top: 10px;
+}
+a img{
+  height: 30px;
+  margin-left: 10px;
+}
+.ft-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.ft-about p{
+  line-height: 25px;
+}
+.ft-content ul{
+  margin-top: 10px;
+  color: white;
+}
+.ft-content li{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.ft-content h3{
+  color: white;
+  font-size: 20px;
+}
+.ft-content p{
+  width: 200px;
+}
+
+/* ===================PERSONALITIES PAGE======================== */
+
+.pers{
+  padding-top: 75px;
+  text-align: center;
+  background: url(Images/candle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.pers h1{
+  font-size: 80px;
+  margin-top: 10%;
+  margin-left:100px;
+  color: rgb(255, 255, 255);
+}
+
+.person{
+  margin-left: 45px;
+  width: 90%;
+}
+.person h2{
+  color: #ffffff;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.person img{
+  margin-top: 20px;
+  height: 500px;
+  width: 600px;
+  border-radius: 60px;
+}
+.person p{
+  color:rgb(226, 222, 222);
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+
+
+/* ===================CONTACT PAGE======================== */
+
+.contact-container1{
+  height: 500px;
+  padding-top: 80px;
+  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(Images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-container1 h1{
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+  font-size: 120px;
+}
+
+.contact-container2{
+  background-color: #333;
+  height: 300px;
+  text-align: center;
+}
+.contact-container2 h3{
+  padding-top: 50px;
+  color: white;
+  font-size: 40px;
+}
+.contact-container2 h4{
+  color: white;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+.call-btn{
+  margin-top: 50px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: red;
+  color: white;
+  border-style:none;
+  border-radius: 20px;
+}
+.call-btn:hover{
+  background-color: white;
+  color: red;
+}
+
+.contact-container3{
+  background-color: #d4cccc;
+  height: 500px;
+  text-align: center;
+}
+.contact-container3 h4{
+  padding-top: 30px;
+  font-weight: 100;
+  font-size: 80px;
+}
+.input{
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-style: 2px;
+  border-radius: 10px;
+}
+.form-btn{
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: red;
+  color: white;
+  border-style:none;
+}
+.form-btn:hover{
+  background-color: white;
+  color: red;
+}
+
+
+/* ===================FAVOURITE CITIES PAGE======================== */
+
+.city-container1{
+  padding-top: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)), url(citites/world.jpg);
+  height: 500px;
+}
+.city-container1 h1{
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+  font-size: 80px;
+}
+
+.city-container2{
+  background: linear-gradient(to right, #feffff, #16da20);
+}
+.city-container2 h1{
+  text-align: center;
+  margin-top: 10px;
+  color: #444747;
+  height: 50px;
+  background: linear-gradient( rgb(246, 250, 249),rgb(46, 177, 13));
+}
+.city-container2 h2{
+  margin-left: 50px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.city-container2 img{
+  height: 350px;
+  width: 600px;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.cities{
+  display: flex;
+  flex-wrap: wrap;
+}
+.city-container2 p{
+  width: 700px;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+
+
+.city-container3 h1{
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  color: white;
+  height: 60px;
+  background: linear-gradient( rgb(5, 79, 128),rgb(34, 134, 151));
+}
+.city-container3 h2{
+  margin-left: 50px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.city-container3 img{
+  height: 350px;
+  width: 600px;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.cities{
+  display: flex;
+  flex-wrap: wrap;
+}
+.city-container3 p{
+  width: 700px;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+
+
+/* ===================TOURIST SPOTS PAGE======================== */
+
+.tourist-container1{
+  padding-top: 80px;
+  height: 550px;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Tourist/tourist-spots.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tourist-container1 h1{
+  text-align: center;
+  margin-top: 12%;
+  font-size: 100px;
+  color: white;
+}
+
+.tourist-container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tourist-container2{
+  background: linear-gradient(rgba(145, 220, 243, 0.5),rgba(77, 192, 106, 0.5));
+}
+.tourist-container2 img{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  height: 600px;
+  width: 350px;
+}
+.tourist-container2 img:hover{
+  margin-top: 10px;
+}
+
+.tourist-container3{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Tourist/tour-back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 500px; */
+}
+.tourist-container3 p{
+  text-align: center;
+  width: 80%;
+  padding-top: 6%;
+  margin-left: 170px;
+  font-size: 45px;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.tourist-container4{
+  background-color: #cde3eb;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tourist-container4 h1{
+  /* color: white; */
+  font-size: 60px;
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.spot{
+  display: flex;
+  flex-wrap: wrap;
+}
+.spot img{
+  height: 500px;
+  width: 800px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.spot p{
+  /* color: white; */
+  width: 45%;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+/*==================== Meodia Querry================ */
+
+/* styles for screens smaller than 768px */
+@media screen and (max-width: 1505px) {
+  .navbar-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-list li {
+    margin-bottom: 10px;
+  }
+  
+
+  .right-ar img{
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .ambition{
+    justify-content: center;
+  }
+}
